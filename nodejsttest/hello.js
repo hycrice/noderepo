@@ -8,6 +8,6 @@ var server = http.createServer(function (request, response) {
   response.writeHead(200, {"Content-Type": "text/plain"});
   response.end("Hello World\n");
 });
-
+server.listen(8000);
 // Listen on port 9000, IP defaults to 127.0.0.1
 server.listen(9000);
